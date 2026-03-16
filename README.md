@@ -37,11 +37,11 @@ This script handles the Load phase of the pipeline, interfacing with the Postgre
 Update the `.env` file in the root directory with your desired PostgreSQL credentials:
 
 ```env
-PG_DBNAME=yourdbname
-PG_USER=yourusername
-PG_PASSWORD=yourpassword
-PG_HOST=db
-PG_PORT=5432
+POSTGRES_DB=yourdbname
+POSTGRES_USER=yourusername
+POSTGRES_PASSWORD=yourpassword
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
 ```
 
 ### Running the Service
